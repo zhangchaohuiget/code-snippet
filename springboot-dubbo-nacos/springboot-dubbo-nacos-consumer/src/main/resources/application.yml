@@ -1,0 +1,11 @@
+server:
+  port: 8089
+
+dubbo:
+  application:
+    name: springboot-dubbo-nacos-consumer
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: nacos://127.0.0.1:8848?namespace=6a29ef98-e0f6-4f95-b132-3bd9c4beee26

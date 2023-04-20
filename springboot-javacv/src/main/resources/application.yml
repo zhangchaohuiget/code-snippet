@@ -1,0 +1,6 @@
+server:
+  port: 8088
+
+
+basePath:
+  browse: /root/software/browse/

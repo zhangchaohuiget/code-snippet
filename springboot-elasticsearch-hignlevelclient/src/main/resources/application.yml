@@ -1,0 +1,12 @@
+server:
+  port: 8088
+
+spring:
+  elasticsearch:
+    jest:
+      uris: http://192.168.30.38:9200
+      username: elastic
+      password: elastic
+    base:
+      package: com.app.model
+  

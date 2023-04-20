@@ -1,0 +1,7 @@
+server:
+  port: 8088
+
+
+schedule:
+  # 是否开启定时任务
+  enabled: true

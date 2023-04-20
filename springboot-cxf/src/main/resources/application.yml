@@ -1,0 +1,4 @@
+server.port: 8088
+
+cxf:
+  path: /services  # 替换默认的/services路径
