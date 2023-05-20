@@ -56,5 +56,7 @@
 
 
 
-## 项目持续更新中...
+## 项目持续更新中...  
+gitee：https://gitee.com/zhangchaohuiget/code-snippet  
 github：https://github.com/zhangchaohuiget/code-snippet
+
