@@ -43,6 +43,7 @@
 | springboot-thymeleaf                      | 集成Thymeleaf构建Web应用                                     |
 | springboot-transaction                    | 使用声明式事务                                               |
 | springboot-websocket                      | 使用WebScoket实时通信                                        |
+| Springboot-websocket-stomp                | 使用stomp协议实现WebSocket                                   |
 | springboot-xstream                        | 使用xml-object轻量转换框架xstream                            |
 
 
