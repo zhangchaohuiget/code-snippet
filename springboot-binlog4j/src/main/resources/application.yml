@@ -1,0 +1,18 @@
+server:
+  port: 8088
+
+
+spring:
+  binlog4j:
+    redis-config:
+      host: 192.168.30.129
+      port: 6379
+      password: 123456
+    client-configs:
+      master:
+        username: root
+        password: 123456
+        host: 192.168.30.129
+        port: 3306
+        serverId: 1990
+        persistence: true # 启用持久化 (宕机重启后, 从上次读取的位置开始)
