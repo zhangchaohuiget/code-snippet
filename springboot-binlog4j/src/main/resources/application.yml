@@ -16,3 +16,4 @@ spring:
         port: 3306
         serverId: 1990
         persistence: true # 启用持久化 (宕机重启后, 从上次读取的位置开始)
+        mode: cluster # 集群模式

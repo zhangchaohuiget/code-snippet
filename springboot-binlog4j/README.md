@@ -4,6 +4,5 @@ https://gitee.com/dromara/binlog4j
 
 
 
-- 集群特性没有体验出来；
-- 性能如何？待测试
-- 能否在业务上应用？待测试
+- 更新至1.5.0版本
+- 验证集群特性：启动两个实例，配置同一集群的serverId一致，且模式mode为cluster

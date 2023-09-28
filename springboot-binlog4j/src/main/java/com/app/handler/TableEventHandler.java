@@ -1,5 +1,6 @@
 package com.app.handler;
 
+import com.app.constant.Constants;
 import com.gitee.Jmysy.binlog4j.core.BinlogEvent;
 import com.gitee.Jmysy.binlog4j.core.IBinlogEventHandler;
 import com.gitee.Jmysy.binlog4j.springboot.starter.annotation.BinlogSubscriber;
@@ -12,21 +13,33 @@ import lombok.extern.slf4j.Slf4j;
  * @date 2023/9/5 09:22
  */
 @Slf4j
-@BinlogSubscriber(clientName = "master", database = "hzwq-test")
+@BinlogSubscriber(clientName = "master")
 public class TableEventHandler implements IBinlogEventHandler {
 
     @Override
     public void onInsert(BinlogEvent event) {
-        log.info("{}表插入数据：{}", event.getTable(), event.getData());
+        String tableName = event.getTable();
+        Object eventData = event.getData();
+        log.info("{}表插入数据：{}", tableName, eventData);
     }
 
     @Override
     public void onUpdate(BinlogEvent event) {
-        log.info("{}表修改数据:{}", event.getTable(), event.getData());
+        String tableName = event.getTable();
+        Object eventData = event.getData();
+        log.info("{}表修改数据：{}", tableName, eventData);
     }
 
     @Override
     public void onDelete(BinlogEvent event) {
-        log.info("{}表删除数据:{}", event.getTable(), event.getData());
+        String tableName = event.getTable();
+        Object eventData = event.getData();
+        log.info("{}表删除数据：{}", tableName, eventData);
     }
+
+    @Override
+    public boolean isHandle(String database, String table) {
+        return Constants.DATABASE_NAME.equals(database);
+    }
+
 }
