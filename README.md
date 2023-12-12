@@ -10,10 +10,10 @@
 
 | 项目名称                                  | 项目描述                                                     |
 | ----------------------------------------- | ------------------------------------------------------------ |
-| my-sqltemplate-spring-boot-starter        | 对[SqlTemplate](https://gitee.com/link?target=https%3A%2F%2Fgithub.com%2Fwenzuojing%2FSqlTemplate)的改造，封装starter |
-| my-swagger2-spring-boot-starter           | 封装swagger2自定义starter，方便在Cloud项目中使用             |
-| snippet-algorithm                         | 算法学习                                                     |
-| snippet-designp-patterns                  | 设计模式学习                                                 |
+| my-sqltemplate-spring-boot-starter        | 对[SqlTemplate](https://gitee.com/link?target=https%3A%2F%2Fgithub.com%2Fwenzuojing%2FSqlTemplate)的改造，封装自定义starter |
+| my-swagger2-spring-boot-starter           | swagger2的依赖和配置，封装自定义starter                      |
+| snippet-algorithm                         | 算法学习记录                                                 |
+| snippet-designp-patterns                  | 设计模式学习记录                                             |
 | springboot-aop                            | SpringBoot AOP的使用                                         |
 | springboot-async                          | SpringBoot中使用异步线程池                                   |
 | springboot-cache                          | SpringBoot声明式缓存的使用                                   |
@@ -24,7 +24,7 @@
 | springboot-elasticsearch-hignlevelclient  | 集成elasticsearch，使用HighLevelClient                       |
 | springboot-elasticsearch-springdataclient | 集成elasticsearch，使用SpringDataClient                      |
 | springboot-javacv                         | 使用Javacv依赖                                               |
-| springboot-jpa                            | 集成JPA做DAO层                                               |
+| springboot-jpa                            | 集成JPA做Dao层                                               |
 | springboot-jwt                            | 基于Shiro+JWT实现Token认证方式                               |
 | springboot-kafka                          | 使用Kafka消息队列                                            |
 | springboot-mongodb                        | 使用mongodb                                                  |
@@ -45,6 +45,7 @@
 | springboot-websocket                      | 使用WebScoket实时通信                                        |
 | Springboot-websocket-stomp                | 使用stomp协议实现WebSocket                                   |
 | springboot-xstream                        | 使用xml-object轻量转换框架xstream                            |
+| springboot-binlog4j                       | 轻量级 Mysql Binlog 客户端                                   |
 
 
 
