@@ -1,0 +1,10 @@
+{
+  "flow": {
+    "chain": [
+      {
+        "name": "test-abc",
+        "value": "THEN(a, b, c)"
+      }
+    ]
+  }
+}

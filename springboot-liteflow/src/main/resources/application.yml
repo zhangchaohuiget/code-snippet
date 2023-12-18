@@ -1,0 +1,6 @@
+server:
+  port: 8088
+
+
+liteflow:
+  rule-source: config/test-abc.json

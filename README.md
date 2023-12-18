@@ -46,6 +46,7 @@
 | Springboot-websocket-stomp                | 使用stomp协议实现WebSocket                                   |
 | springboot-xstream                        | 使用xml-object轻量转换框架xstream                            |
 | springboot-binlog4j                       | 轻量级 Mysql Binlog 客户端                                   |
+| springboot-liteflow                       | 轻量，快速，稳定，可编排的组件式规则引擎/流程引擎。          |
 
 
 
