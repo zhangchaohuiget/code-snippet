@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: springboot-jasypt
+  jmx:
+    default-domain: springboot-jasypt
+  profiles:
+    active: dev #默认配置开发环境
+server:
+  port: 8088
+
+---
+spring:
+  profiles: dev
+  jackson: #时间格式转换
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  devtools:
+    restart:
+      enabled: true
+
+---
+# https://github.com/ulisesbocchio/jasypt-spring-boot
+jasypt:
+  encryptor:
+    # jasypt.encryptor.password 参数是必须的，相当于 Salt（盐），以保证密码安全性
+    password: G9w0BAQEFAASCBKYwggSiAgEAAoIBAQC
+    # prefix 和 prefix 是自定义的密码串标识，不配置默认为：ENC(...)
+    property:
+      prefix: "ENC@["
+      suffix: "]"
+
+
+---
+# 测试密文
+# 执行插件名称生成或参考测试类：mvn jasypt:encrypt-value -Djasypt.encryptor.password="G9w0BAQEFAASCBKYwggSiAgEAAoIBAQC" -Djasypt.plugin.value="admin"
+testjasypt:
+  username: "ENC@[Or/nQR7nlZovFbE/mi/CV10ipE2ENCmS56OX20DMP0Na/aVw9kAZStK5p8C6+xFL]"
+  password: "ENC@[zstNBm0VqD80fIsvM2Pl/5eXg/ue6D7b8vDCWU7JCGDuRKsub+VHCHIosAhnMkfs]"
