@@ -1,4 +1,4 @@
-package com.app.model;
+package com.app.xml2obj.xstreamasattribute;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import lombok.Data;

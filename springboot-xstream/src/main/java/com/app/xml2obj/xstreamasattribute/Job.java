@@ -1,5 +1,6 @@
-package com.app.model;
+package com.app.xml2obj.xstreamasattribute;
 
+import com.thoughtworks.xstream.annotations.XStreamAsAttribute;
 import lombok.Data;
 
 /**
@@ -10,6 +11,8 @@ import lombok.Data;
  */
 @Data
 public class Job {
+    @XStreamAsAttribute
+    private String status;
     private String jobName;
     private int jobLife;
 }

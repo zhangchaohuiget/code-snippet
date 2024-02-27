@@ -1,1 +1,1 @@
-[xstream](https://github.com/x-stream/xstream)是一个简单的库，用于将对象序列化为 XML 并再次序列化。
+[xstream](https://github.com/x-stream/xstream)是一个简单的库，可以将对象序列化为 XML 然后再返回。
