@@ -43,12 +43,13 @@
 | springboot-thymeleaf                      | 集成Thymeleaf构建Web应用                                     |
 | springboot-transaction                    | 使用声明式事务                                               |
 | springboot-websocket                      | 使用WebScoket实时通信                                        |
-| Springboot-websocket-stomp                | 使用stomp协议实现WebSocket                                   |
+| springboot-websocket-stomp                | 使用stomp协议实现WebSocket                                   |
 | springboot-xstream                        | 使用xml-object轻量转换框架xstream                            |
 | springboot-binlog4j                       | 轻量级 Mysql Binlog 客户端                                   |
 | springboot-liteflow                       | 轻量，快速，稳定，可编排的组件式规则引擎/流程引擎            |
 | springboot-jasypt                         | Jasypt是一个专门为Spring Boot项目中的属性提供加密支持的框架  |
-| Springboot-sqlite                         | 集成sqlite数据库                                             |
+| springboot-sqlite                         | 集成sqlite数据库                                             |
+| springboot-neo4j                          | 集成neo4j图数据库                                            |
 
 
 
