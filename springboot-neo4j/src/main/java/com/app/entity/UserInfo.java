@@ -12,6 +12,8 @@ import org.neo4j.ogm.annotation.Property;
 @NodeEntity(label = "userInfo")
 public class UserInfo extends BaseNode {
 
+    private String userId;
+
     /**
      * 如果名称与数据库一致那么就不需要这个注解
      */

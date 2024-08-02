@@ -8,11 +8,10 @@ import org.neo4j.ogm.annotation.NodeEntity;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@NodeEntity(label = "classInfo")
-public class ClassInfo extends BaseNode {
+@NodeEntity(label = "itemInfo")
+public class ItemInfo extends BaseNode {
 
-    private String classId;
-    private String name;
+    private String itemId;
+    private String time;
 
-    private Integer num;
 }
