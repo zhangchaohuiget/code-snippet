@@ -1,0 +1,14 @@
+syntax = "proto3";
+option java_package = "com.app.model.bo";
+option java_outer_classname = "UserInfoFactory";
+
+message UserInfo {
+	int64 id = 1;
+	string name = 2;
+	EnumSex sex = 3;
+}
+
+enum EnumSex {
+	SEX_MAN = 0;
+	SEX_WOMAN = 1;
+}

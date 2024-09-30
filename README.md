@@ -50,6 +50,7 @@
 | springboot-jasypt                         | Jasypt是一个专门为Spring Boot项目中的属性提供加密支持的框架  |
 | springboot-sqlite                         | 集成sqlite数据库                                             |
 | springboot-neo4j                          | 集成neo4j图数据库                                            |
+| springboot-protobuf                       | 集成Protobuf数据交换协议                                     |
 
 
 
